@@ -1,0 +1,379 @@
+:root {
+  --mainColor: black;
+  --divWidth: 85%;
+  --divMargin: 50px 0 0 10%;
+  --divHeight: auto;
+  --divColor: white;
+}
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 400;
+}
+body {
+  background-color: var(--mainColor);
+}
+h2,
+h3 {
+  text-transform: capitalize;
+  font-size: 30px;
+  margin: 15px 0;
+}
+nav {
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+  width: 15%;
+  position: fixed;
+  background-color: #222;
+  flex-grow: 3;
+}
+nav img {
+  filter: contrast(0.5);
+}
+nav a {
+  height: 15vh;
+  text-transform: uppercase;
+  text-decoration: none;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+a:hover {
+  background-color: black;
+}
+.a:hover {
+  background-color: #666 !important;
+}
+span {
+  padding-top: 15px;
+}
+main {
+  margin-left: 15%;
+  width: 85%;
+  background-color: black !important;
+}
+.div-jone {
+  margin-left: 10%;
+  width: var(--divWidth);
+  height: var(--divHeight);
+  text-align: center;
+  color: var(--divColor);
+}
+h1 {
+  font-size: 64px !important;
+  font-weight: 400;
+  padding: 50px 20px 0 0;
+}
+.div-jone img {
+  width: 80%;
+  height: auto;
+}
+.about-me {
+  margin: var(--divMargin);
+  text-align: left !important;
+  height: var(--divHeight);
+  width: var(--divWidth);
+  color: var(--divColor);
+}
+.about-me p {
+  color: #757575 !important;
+  margin: 15px 0;
+  font-size: 15px;
+  line-height: 1.5;
+}
+.about-me .photo {
+  height: 15px;
+}
+.about-me .rating {
+  width: 100%;
+  height: auto;
+  margin: 25px 0;
+  background-color: white !important;
+  display: flex;
+  flex-direction: row;
+}
+.rating div {
+  width: 25%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.rating span {
+  color: #222;
+  font-size: 24px !important;
+}
+.about-me a {
+  width: 50%;
+  height: 50px;
+  color: #222;
+  background-color: aliceblue;
+  display: flex;
+  flex-direction: row !important;
+  align-items: center;
+  justify-content: center;
+  text-transform: capitalize !important;
+
+  text-decoration: none;
+}
+.about-me a:hover {
+  background-color: rgb(131, 126, 126);
+  color: white;
+}
+.price {
+  margin: var(--divMargin);
+  text-align: left !important;
+
+  width: var(--divWidth);
+  color: var(--divColor);
+}
+.price .plans {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.plans div {
+  width: 48.5%;
+  height: 100%;
+  text-align: center;
+  text-transform: capitalize;
+  background-color: #fff !important;
+  color: var(--mainColor);
+  opacity: 0.5;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.plans :hover {
+  opacity: 1;
+}
+.plans h4 {
+  width: 100%;
+  background-color: #616161;
+  padding: 35px !important;
+  color: #fff !important;
+  font-size: 24px !important;
+}
+.plans div p {
+  padding: 15px;
+  width: 100%;
+}
+.plans .dolar {
+  height: 15% !important;
+  font-size: 30px;
+  padding: 0;
+}
+.plans div p span {
+  display: block;
+  font-size: 15px !important;
+}
+.plans div .sign {
+  height: 25%;
+  padding: 35px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: #f1f1f1 !important;
+}
+.sign a {
+  background-color: #fff !important;
+  color: black;
+  text-transform: capitalize;
+  text-decoration: none;
+  padding: 15px;
+}
+.sign a:hover {
+  background-color: black !important;
+  color: white;
+}
+.rep {
+  margin: var(--divMargin);
+  height: 65vh;
+  color: #757575 !important;
+  width: var(--divWidth);
+}
+.rep div {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  width: 100%;
+  margin-bottom: 20px;
+}
+
+.rep img {
+  border-radius: 100px;
+  width: 25vh;
+}
+.rep p {
+  margin-left: 5%;
+  width: 100%;
+}
+.rep p span {
+  margin-right: 4%;
+}
+.photo {
+  width: var(--divWidth);
+  height: auto;
+  margin: var(--divMargin);
+  color: white;
+}
+.photo .div-photos {
+  width: 100%;
+  height: 100%;
+  margin-top: 30px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.div-photos div {
+  width: 48.5%;
+  height: auto;
+}
+.contact {
+  margin: var(--divMargin);
+  color: white;
+  width: var(--divWidth);
+  height: auto;
+}
+.contact i {
+  display: block;
+  margin-top: 20px;
+  font-size: 30px;
+  font-weight: 600;
+}
+.contact i span {
+  margin-left: 20px;
+  font-size: 15px;
+  color: #757575 !important;
+}
+
+.form {
+  color: white;
+  width: var(--divWidth);
+  height: auto;
+  margin: var(--divMargin);
+}
+.form p {
+  font-size: 13px;
+  color: #757575;
+  margin-bottom: 10px;
+}
+.form form {
+  display: flex;
+  flex-direction: column;
+  height: 50vh;
+  justify-content: space-between;
+}
+.form input {
+  height: 18%;
+  padding-left: 5px;
+}
+.form button {
+  height: 15%;
+  width: 50%;
+  cursor: pointer;
+}
+
+.form button i {
+  font-size: 20px !important;
+}
+.form button span {
+  margin-left: 5px;
+}
+.form button:hover {
+  background-color: rgb(131, 126, 126);
+  border: none;
+  color: white;
+}
+.footer {
+  width: var(--divWidth);
+  color: #666;
+  height: 100%;
+  height: 25vh !important;
+  margin: 150px 0 0 10%;
+}
+.footer i {
+  font-size: 25px;
+  transition: .3s;
+  cursor: pointer;
+}
+.footer i:hover{
+  color: white;
+}
+.footer p {
+  margin-top: 30px;
+}
+.footer a {
+  color: #666;
+}
+.footer a:hover {
+  color: white;
+}
+@media (max-width: 900px) {
+  nav {
+    width: 20%;
+  }
+  nav a {
+    height: 20vh;
+  }
+  section {
+    margin-left: 15%;
+    
+  }
+}
+@media (max-width:700px) {
+  nav img{
+    display: none;
+      }
+      nav{
+        flex-direction: row;
+        
+        width: 100%;
+        height: 10vh;
+        align-items: center;
+      }
+      nav a{
+        height: 100%;
+        width: 25%;
+        padding-top: 10px;}
+      main{
+        margin: 0;
+        width: 100%;
+        padding-top: 50px;
+    }
+    main div{
+      width: 100%;
+      margin: 0%;
+    }
+  .about-me .rating,.price .plans  {
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+  }
+  .price .plans div{
+    width: 100%;
+    margin-bottom: 20px;
+  }
+  .photo .div-photos{
+    flex-direction: column;
+  }
+  .photo .div-photos div{
+    width: 100%;
+  }
+  
+}
+@media (max-width:500px){
+  .about-me a {
+    width: 100%;
+  }
+  .form button{
+    width: 100%;
+
+  }
+}
